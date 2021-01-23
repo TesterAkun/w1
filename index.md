@@ -1,37 +1,64 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html>
 
-You can use the [editor on GitHub](https://github.com/TesterAkun/w1/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+<html lang="en">
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<head>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="Assets/photo-profile.png">
+    <link href="https://fonts.googleapis.com/css2?family=Calligraffitti&family=Quicksand:wght@500&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yeremia Bagas</title>
+</head>
 
-### Markdown
+<body>
+  <div id="top-container">
+      <img class="top-cloud" src="Assets/CSS - My Site Images/cloud.png" alt="cloud-img">
+      <h1>I'm Yeremia Bagas</h1>
+      <h2 class="web-designer">a <span class="underline">beginner</span> Web Designer</h2>
+      <img class="bottom-cloud" src="Assets/CSS - My Site Images/cloud.png" alt="cloud-img">
+      <img class="mountain" src="Assets/CSS - My Site Images/mountain.png" alt="mountain-img">
+  </div>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+  <div id="middle-container">
+      <div class="profile">
+        <img src="Assets/photo-profile.png" alt="yeremia-photo">
+        <h3>Hello.</h3>
+        <p>I am a beginner Web Developer. I love music and chocolate. Have a dream to make a better world.</p>
+      </div>
 
-```markdown
-Syntax highlighted code block
+      <hr>
 
-# Header 1
-## Header 2
-### Header 3
+      <div id="skills">
+        <h2>My Skills</h2>
+          <div class="skill-row">
+            <img class="piano-img" src="Assets/piano (4).png" alt="piano-photo">
+            <h3>Music</h3>
+            <p>I started become self taught music learn when I was junior high school. Now I can play guitar, keyboard, bass. I use my music skills for church ministry.</p>
+          </div>
 
-- Bulleted
-- List
+          <div class="skill-row">
+            <img class="soccer-img" src="Assets/circle-cropped (2).png" alt="soccer-image">
+            <h3>Soccer</h3>
+            <p>My best skill until now is play soccer. I started playing soccer since elementary school and so much like it until now.</p>
+          </div>
+      </div>
 
-1. Numbered
-2. List
+      <hr>
 
-**Bold** and _Italic_ and `Code` text
+      <div id="contact-me">
+        <h2>Get In Touch</h2>
+        <h3 class="get-in-touch">If you love and more interested in my masterpiece.</h3>
+        <p class="contact-message">Let's talk about awesome things with me.</p>
+        <a class="button" href="mailto:yeremiabags@gmail.com">CONTACT ME</a>
+      </div>
+  </div>
 
-[Link](url) and ![Image](src)
-```
+  <div id="bottom-container">
+    <a href="https://www.instagram.com/yeremiabags_/?hl=en"><img class="instagram-img" src="Assets/instagram-logo.png" alt="instagram-logo"></a>
+    <a href="https://twitter.com/yeremia_bagas"><img class="twitter-img" src="Assets/twitter.png" alt="twitter-logo"></a>
+    <p class="copyright">© 2020 Yeremia Bagas.</p>
+  </div>
+</body>
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/TesterAkun/w1/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+</html>
